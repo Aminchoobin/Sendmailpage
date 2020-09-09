@@ -1,0 +1,66 @@
+﻿<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet" />
+    <link href="css/Style.css" rel="stylesheet" />
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="container">
+            <div class="mail-box">
+                <form class="w100" action="" method="POST">
+                    <div class="row w100">
+                        <div class="col-10 w100">
+                            <div class="mail-box-left w100">
+                                <div class="mail-box-left-top">
+                                    <div>
+                                        <h5 class="goldeffect">New Message</h5>
+                                    </div>
+                                    <div>
+                                        <input formaction="" class="fal fa-save goldeffect fa-2x mlr" type="submit" value="">
+                                        <input formaction="" class="fad fa-share-square goldeffect fa-2x mlr" type="submit" value="">
+                                    </div>
+                                </div>
+                                <div class="mail-box-left-bottom">
+                                    <div>
+                                        <div>
+                                            <i class="fal fa-envelope-open-text goldeffect fa-lg"></i>
+                                            <input type="email" id="" name="Recipient" placeholder="Recipient..">
+                                        </div>
+                                        <div>
+                                            <i class="fal fa-comment goldeffect fa-lg"></i>
+                                            <input type="text" id="lname" name="Subject" placeholder="Subject...">
+                                        </div>
+                                        <textarea name="editor1"></textarea>
+                                        <script>
+                                            CKEDITOR.replace('editor1');
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="mail-box-right">
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
